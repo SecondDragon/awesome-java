@@ -1,9 +1,4 @@
-> 阿里云最近在做活动，服务器不到10元/月，小伙伴们搭建一个网站提高简历质量。支持国内开源做的比较好的公司！[点击此链接直达活动首页。](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=hf47liqn)
-
-**关于作者：**
-
-1. 公众号 ： [JavaGuide](#公众号) （最新原创文章+免费领取本文档配套的《Java 面试突击》以及 Java 工程师必备学习资源）
-2. B 站：[Guide 哥](https://space.bilibili.com/504390397) （各种干货视频和生活向视频，来个一键三连可好！）
+👍推荐:PDF 版本在[公众号 JavaGuide](#公众号) 后台回复“开源”即可获取！
 
 <p align="center"> <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/Awesome-Java.png" /> <br />中文 | <a href="https://github.com/Snailclimb/awsome-java/blob/master/README-EN.md">English</a> <br />Great Java project on Github(Github 上非常棒的 Java 开源项目). </p>
 
@@ -29,7 +24,7 @@
   - [大数据](#大数据)
 - [实战项目](#实战项目)
   - [商城系统](#商城系统)
-  - [博客/论坛/其他](#博客论坛其他)
+  - [博客/论坛/考试系统/其他](#博客论坛考试系统其他)
   - [权限管理系统](#权限管理系统)
   - [快速开发脚手架](#快速开发脚手架)
 - [系统设计](#系统设计)
@@ -49,8 +44,9 @@
     - [框架](#框架)
   - [大数据](#大数据-1)
   - [日志系统](#日志系统)
-  - [开放平台(如微信)](#开放平台如微信)
+  - [HTTP客户端](#http客户端)
   - [测试](#测试)
+  - [开放平台(如微信)](#开放平台如微信)
   - [机器学习](#机器学习)
 - [Devpos](#devpos)
   - [CI](#ci)
@@ -142,7 +138,7 @@ _Guide 哥注：下面的商城系统大多比较复杂比如 mall ,如果没有
 5. **[xmall](https://github.com/Exrick/xmall)** :基于 SOA 架构的分布式电商购物商城 前后端分离 前台商城:Vue 全家桶 后台管理系统:Spring/Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper 等
 6. **[newbee-mall](https://github.com/newbee-ltd/newbee-mall)** :newbee-mall 项目（新蜂商城）是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 2.X 及相关技术栈开发。
 
-### 博客/论坛/其他
+### 博客/论坛/考试系统/其他
 
 _Guide 哥注：下面这几个项目都是非常适合 Spring Boot 初学者学习的，下面的大部分项目的总体代码架构我都看过，个人觉得还算不错，不会误导没有实际做过项目的老哥，特别是前两个项目 vhr 和 favorites-web 。_
 
@@ -151,6 +147,8 @@ _Guide 哥注：下面这几个项目都是非常适合 Spring Boot 初学者学
 3. **[community](https://github.com/codedrinker/community)** ：开源论坛、问答系统，现有功能提问、回复、通知、最新、最热、消除零回复功能。功能持续更新中…… 技术栈 Spring、Spring Boot、MyBatis、MySQL/H2、Bootstrap。
 4. **[VBlog](https://github.com/lenve/VBlog)** ：V 部落，Vue+SpringBoot 实现的多用户博客管理平台!
 5. **[My-Blog](https://github.com/ZHENFENG13/My-Blog)** ： My Blog 是由 SpringBoot + Mybatis + Thymeleaf 等技术实现的 Java 博客系统，页面美观、功能齐全、部署简单及完善的代码，一定会给使用者无与伦比的体验。
+6. **[uexam](https://gitee.com/mindskip/uexam)** ：一个非常不错的考试系统！考试系统应用场景还挺多的，不论是对于在校大学生还是已经工作的小伙伴，并且，类似的私活也有很多。相关阅读：[《好一个 Spring Boot 开源在线考试系统！解决了我的燃眉之急》](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247491585%26idx%3D1%26sn%3D8d3c6768c22e72d6bfcbeee9624886a7%26chksm%3Dcea1afcaf9d626dc918760289c37025ad526f6255786bc198d2402203df64c873ad7934f58df%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd) 。
+7. **[PassJava-Platform](https://github.com/Jackson0714/PassJava-Platform)** ：一个基于微服务(SpringBoot、Spring Cloud)的面试刷题系统！相关阅读：[《一个基于 Spring Cloud 的面试刷题系统。面试、毕设、项目经验一网打尽》](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247497045%26idx%3D1%26sn%3D577175bfd6c040a0df5a494fce6f9758%26chksm%3Dcea1ba9ef9d633883a2e213c0fb9a88bdc87051347d4b3fad2c2befb65d8b16e1ea81d8146dd%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd)。
 
 相关文章：
 
@@ -164,6 +162,7 @@ _Guide 哥注：权限管理系统在企业级的项目中一般都是非常重�
 2. **[pig](https://gitee.com/log4j/pig "pig")**：（gitee）基于 Spring Boot 2.2、 Spring Cloud Hoxton & Alibaba、 OAuth2 的 RBAC 权限管理系统。
 3. **[FEBS-Shiro](https://github.com/wuyouzhuguli/FEBS-Shiro "FEBS-Shiro")** ：Spring Boot 2.1.3，Shiro1.4.0 & Layui 2.5.4 权限管理系统。
 4. **[eladmin](https://github.com/elunez/eladmin)** : 项目基于 Spring Boot 2.1.0 、 Jpa、 Spring Security、redis、Vue 的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由。
+5. **[SpringBoot-Shiro-Vue](https://github.com/Heeexy/SpringBoot-Shiro-Vue)** ：提供一套基于Spring Boot-Shiro-Vue的权限管理思路.前后端都加以控制,做到按钮/接口级别的权限。
 
 ### 快速开发脚手架
 
@@ -314,17 +313,14 @@ Solr 比较老牌了，但是，目前生态以及社区活跃度都比不上 El
 
 ### 日志系统
 
-实际项目中使用 ELK 三件套（Elasticsearch，Logstash，Kibana）来做日志系统的非常多。
+- **EKL 老三件套** : 最原始的时候，ELK 是由 3 个开源项目的首字母构成，分别是 **E**lasticsearch 、**L**ogstash、**K**ibana。
+- **新一代 ELK 架构** : Elasticsearch+Logstash+Kibana+Beats。
+- **EFK** : EFK 中的 F 代表的是 [Fluentd](https://github.com/fluent/fluentd)。
 
-另外，像 Prometheus + Grafana 也是比较主流的，相关阅读：[Prometheus + Grafana 监控配置指北：打造专属监控系统](https://counter2015.com/2020/04/13/grafana-monitor-2/) 。
+### HTTP客户端
 
-1. **[loki](https://github.com/grafana/loki)** ： `Loki`是 Grafana Labs 团队最新的开源项目，是一个水平可扩展，高可用性，多租户的日志聚合系统。它的设计非常经济高效且易于操作，因为它不会为日志内容编制索引，而是为每个日志流编制一组标签。项目受 Prometheus 启发，官方的介绍就是：`Like Prometheus, but for logs.`，类似于 Prometheus 的日志系统。相关阅读：
-   - [Loki 日志系统](https://www.cnblogs.com/xiao987334176/p/13187473.html)
-   - [使用 Loki 进行日志监控和报警](https://www.qikqiak.com/post/use-loki-monitor-alert/)
-
-### 开放平台(如微信)
-
-1. **[WxJava](https://github.com/Wechat-Group/WxJava)** : WxJava （微信开发 Java SDK），支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的后端开发。
+1. **[Retrofit](https://github.com/square/retrofit)** ：适用于 Android 和 Java 的类型安全的 HTTP 客户端。Retrofit 的 HTTP 请求使用的是 [OkHttp](https://square.github.io/okhttp/) 库（一款被广泛使用网络框架）。
+2. **[Forest](https://gitee.com/dt_flys/forest)**  ：轻量级 HTTP 客户端 API 框架，让 Java 发送 HTTP/HTTPS 请求不再难。它比 OkHttp 和 HttpClient 更高层，是封装调用第三方 restful api client 接口的好帮手，是 retrofit 和 feign 之外另一个选择。
 
 ### 测试
 
@@ -339,6 +335,10 @@ Solr 比较老牌了，但是，目前生态以及社区活跃度都比不上 El
 
 1. [The Practical Test Pyramid- Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html) (很赞的一篇文章，不过是英文的)
 2. [浅谈测试之 PowerMock](https://juejin.im/post/6844903982058618894)
+
+### 开放平台(如微信)
+
+1. **[WxJava](https://github.com/Wechat-Group/WxJava)** : WxJava （微信开发 Java SDK），支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的后端开发。
 
 ### 机器学习
 
@@ -404,4 +404,4 @@ Solr 比较老牌了，但是，目前生态以及社区活跃度都比不上 El
 
 ### 公众号
 
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-11/默认标题_方形二维码_2019-11-28-0.png" style="zoom:150%;" />
+![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
